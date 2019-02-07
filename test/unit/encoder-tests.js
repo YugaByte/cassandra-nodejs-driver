@@ -494,7 +494,7 @@ describe('encoder', function () {
         assert.strictEqual(decoded, v);
       });
     });
-    t('should encode/decode json complex values', function(){
+    it('should encode/decode json complex values', function(){
       const encoder = new Encoder(3, {});
       const type = { code: dataTypes.json, info: null};
       const value = { a: 1, b: 'z', c: null, d: true, e: false, f: { a1: 'abc', b1: 123}, g: [1, 'a', null, true, false, {a2: 'def', b2: 456}]};
