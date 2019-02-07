@@ -621,7 +621,7 @@ describe('encoder', function () {
     });
   });
   describe('#encode()', function () {
-    it('should return json when value is null', function () {
+    it('should return null when value is null', function () {
       const encoder = new Encoder(2, {});
       assert.strictEqual(encoder.encode(null), null);
     });
