@@ -6,7 +6,6 @@ lib-cov
 *.out
 *.pid
 *.gz
-*.iml
 
 pids
 logs
@@ -14,7 +13,6 @@ results
 .idea
 
 npm-debug.log
-package-lock.json
 node_modules
 testing.js
 test/localConfig.json
