@@ -1,9 +1,11 @@
 {
-  "name": "cassandra-driver",
+  "name": "yb-ycql-driver",
   "version": "4.0.0",
-  "description": "DataStax Node.js Driver for Apache Cassandra",
-  "author": "DataStax",
+  "description": "Node.js Driver for YugaByte Cloud Query Language (YCQL) forked from DataStax",
+  "author": "Yugabyte",
   "keywords": [
+    "yugabyte",
+    "ycql",
     "cassandra",
     "cql",
     "cql3",
@@ -24,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/datastax/nodejs-driver.git"
+    "url": "https://github.com/yugabyte/cassandra-nodejs-driver.git"
   },
   "bugs": {
     "url": "https://groups.google.com/a/lists.datastax.com/forum/#!forum/nodejs-driver-user"
